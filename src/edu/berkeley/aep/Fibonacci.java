@@ -4,7 +4,10 @@ package edu.berkeley.aep;
 public class Fibonacci {
     private int nthFibonacciNumber;
 
-    public int calculateFibonacciNumber() {
-        return 0;
+    public int calculateFibonacciNumber(int nthFibonacciNumber) {
+        this.nthFibonacciNumber = nthFibonacciNumber;
+        if (nthFibonacciNumber == 0) return 0;
+        else if (nthFibonacciNumber == 1) return 1;
+    return -1;
     }
 }

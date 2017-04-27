@@ -20,13 +20,22 @@ public class FibonacciTest {
 
     @Test
     public void shouldReturnAValueGivenInput() throws Exception{
-        assertThat(fibonacci.calculateFibonacciNumber(), not(nullValue()));
+        int nthFibonacciNumber =40;
+        assertThat(fibonacci.calculateFibonacciNumber(nthFibonacciNumber), not(nullValue()));
 
     }
 
     @Test
     public void firstTermOfFibonacciSeriesShouldBe0() throws Exception{
-        assertEquals(0, fibonacci.calculateFibonacciNumber());
+        int nthFibonacciNumber =0;
+        assertEquals(0, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
+
+    }
+
+    @Test
+    public void SecondTermOfFibonacciSeriesShouldBe1() throws Exception{
+        int nthFibonacciNumber =1;
+        assertEquals(1, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
 
