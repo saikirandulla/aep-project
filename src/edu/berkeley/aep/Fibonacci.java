@@ -1,8 +1,6 @@
 package edu.berkeley.aep;
 
-/**
- * Created by macbook on 4/26/17.
- */
+//Computes the nth number of the Fibonacci Sequence
 public class Fibonacci {
 
 
