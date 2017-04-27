@@ -32,10 +32,16 @@ public class FibonacciTest {
 
     }
 
-    
+
     @Test
     public void SecondTermOfFibonacciSeriesShouldBe1() throws Exception{
         int nthFibonacciNumber =1;
+        assertEquals(1, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
+
+    }
+    @Test
+    public void ThirdTermOfFibonacciSeriesShouldBe1() throws Exception{
+        int nthFibonacciNumber =2;
         assertEquals(1, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
