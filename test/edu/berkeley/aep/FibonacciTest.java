@@ -27,7 +27,7 @@ public class FibonacciTest {
 
     @Test
     public void firstTermOfFibonacciSeriesShouldBe0() throws Exception{
-        int nthFibonacciNumber =0;
+        int nthFibonacciNumber =1;
         assertEquals(0, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
@@ -35,15 +35,20 @@ public class FibonacciTest {
 
     @Test
     public void SecondTermOfFibonacciSeriesShouldBe1() throws Exception{
-        int nthFibonacciNumber =1;
+        int nthFibonacciNumber =2;
         assertEquals(1, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
     @Test
     public void ThirdTermOfFibonacciSeriesShouldBe1() throws Exception{
-        int nthFibonacciNumber =2;
+        int nthFibonacciNumber =3;
         assertEquals(1, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
+    @Test
+    public void FourthTermOfFibonacciSeriesShouldBe2() throws Exception{
+        int nthFibonacciNumber =4;
+        assertEquals(2, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
+    }
 }
