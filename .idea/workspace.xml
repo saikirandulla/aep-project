@@ -29,8 +29,8 @@
       <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="723">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,59 +189,7 @@
       <recent name="edu.berkeley.aep" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2">
-    <configuration default="false" name="FibonacciTest.firstTermOfFibonacciSeriesShouldBe0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="aep-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.FibonacciTest" />
-      <option name="METHOD_NAME" value="firstTermOfFibonacciSeriesShouldBe0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FibonacciTest.shouldReturnAValueGivenInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="aep-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.FibonacciTest" />
-      <option name="METHOD_NAME" value="shouldReturnAValueGivenInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciTest">
     <configuration default="false" name="FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -308,6 +256,58 @@
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.FibonacciTest" />
       <option name="METHOD_NAME" value="FourthTermOfFibonacciSeriesShouldBe2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="aep-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.FibonacciTest" />
+      <option name="METHOD_NAME" value="TenthTermOfFibonacciSeriesShouldBe55" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="aep-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.FibonacciTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -752,19 +752,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.firstTermOfFibonacciSeriesShouldBe0" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.shouldReturnAValueGivenInput" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.shouldReturnAValueGivenInput" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.firstTermOfFibonacciSeriesShouldBe0" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" />
       </list>
     </recent_temporary>
   </component>
@@ -796,11 +796,14 @@
       <workItem from="1491594256985" duration="905000" />
       <workItem from="1492190189988" duration="6035000" />
       <workItem from="1492794798432" duration="2306000" />
-      <workItem from="1493265620570" duration="9870000" />
+      <workItem from="1493265620570" duration="10836000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FibonacciTest - 2017.04.27 at 16h 41m 36s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FibonacciTest_FourthTermOfFibonacciSeriesShouldBe2 - 2017.04.27 at 16h 27m 10s.xml">
       <configuration name="FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" configurationId="JUnit" />
     </history-entry>
@@ -810,11 +813,17 @@
     <history-entry file="FibonacciTest_FourthTermOfFibonacciSeriesShouldBe2 - 2017.04.27 at 16h 30m 42s.xml">
       <configuration name="FibonacciTest.FourthTermOfFibonacciSeriesShouldBe2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_SecondTermOfFibonacciSeriesShouldBe1 - 2017.04.27 at 15h 37m 30s.xml">
-      <configuration name="FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_TenthTermOfFibonacciSeriesShouldBe55 - 2017.04.27 at 16h 33m 31s.xml">
+      <configuration name="FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_SecondTermOfFibonacciSeriesShouldBe1 - 2017.04.27 at 15h 38m 04s.xml">
-      <configuration name="FibonacciTest.SecondTermOfFibonacciSeriesShouldBe1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_TenthTermOfFibonacciSeriesShouldBe55 - 2017.04.27 at 16h 35m 13s.xml">
+      <configuration name="FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_TenthTermOfFibonacciSeriesShouldBe55 - 2017.04.27 at 16h 36m 48s.xml">
+      <configuration name="FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_TenthTermOfFibonacciSeriesShouldBe55 - 2017.04.27 at 16h 41m 18s.xml">
+      <configuration name="FibonacciTest.TenthTermOfFibonacciSeriesShouldBe55" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FibonacciTest_ThirdTermOfFibonacciSeriesShouldBe1 - 2017.04.27 at 16h 23m 25s.xml">
       <configuration name="FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" configurationId="JUnit" />
@@ -822,22 +831,13 @@
     <history-entry file="FibonacciTest_ThirdTermOfFibonacciSeriesShouldBe1 - 2017.04.27 at 16h 23m 54s.xml">
       <configuration name="FibonacciTest.ThirdTermOfFibonacciSeriesShouldBe1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_firstTermOfFibonacciSeriesShouldBe0 - 2017.04.26 at 22h 19m 58s.xml">
-      <configuration name="FibonacciTest.firstTermOfFibonacciSeriesShouldBe0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_shouldReturnAValueGivenInput - 2017.04.27 at 15h 29m 36s.xml">
-      <configuration name="FibonacciTest.shouldReturnAValueGivenInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_shouldReturnAValueGivenInput - 2017.04.27 at 15h 37m 02s.xml">
-      <configuration name="FibonacciTest.shouldReturnAValueGivenInput" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19974000" />
+    <option name="totallyTimeSpent" value="20940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -848,7 +848,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.2819063" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2143906" sideWeight="0.68497574" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2143906" sideWeight="0.68497574" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.7180937" order="7" side_tool="false" content_ui="tabs" />
@@ -981,16 +981,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="723">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

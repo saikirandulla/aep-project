@@ -6,8 +6,8 @@ public class Fibonacci {
 
     public int calculateFibonacciNumber(int nthFibonacciNumber) {
         this.nthFibonacciNumber = nthFibonacciNumber;
-        if (nthFibonacciNumber == 1) return 0;
-        else if (nthFibonacciNumber == 2 | nthFibonacciNumber == 3) return 1;
+        if (nthFibonacciNumber == 0) return 0;
+        else if (nthFibonacciNumber == 1 | nthFibonacciNumber == 2) return 1;
         else {
 
             return (calculateFibonacciNumber(nthFibonacciNumber - 1) + calculateFibonacciNumber(nthFibonacciNumber -2));
