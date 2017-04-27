@@ -32,6 +32,7 @@ public class FibonacciTest {
 
     }
 
+    
     @Test
     public void SecondTermOfFibonacciSeriesShouldBe1() throws Exception{
         int nthFibonacciNumber =1;
