@@ -1,25 +1,33 @@
 package edu.berkeley.aep;
 
-/**
- * Created by macbook on 4/26/17.
- */
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.hamcrest.core.IsNull.nullValue;
 import static org.junit.Assert.assertEquals;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.assertThat;
+
 
 
 public class FibonacciTest {
-    private Fibonacci nthNumber;
+    private Fibonacci fibonacci;
 
     @Before
     public void setUp() throws Exception {
-        nthNumber = new Fibonacci();
+        fibonacci = new Fibonacci();
+    }
+
+    @Test
+    public void shouldReturnAValueGivenInput() throws Exception{
+        assertThat(fibonacci.calculateFibonacciNumber(), not(nullValue()));
+
     }
 
     @Test
     public void firstTermOfFibonacciSeriesShouldBe0() throws Exception{
-        assertEquals(0, nthNumber.calculateFibonacciNumber());
+        assertEquals(0, fibonacci.calculateFibonacciNumber());
 
     }
+
 }
