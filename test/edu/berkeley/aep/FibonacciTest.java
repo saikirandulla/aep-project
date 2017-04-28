@@ -57,4 +57,10 @@ public class FibonacciTest {
         assertEquals(55, fibonacci.calculateFibonacciNumber(nthFibonacciNumber));
 
     }
+    @Test (expected = IllegalArgumentException.class)
+    public void negativeNthFibonacciNumberShouldThrowException() throws Exception{
+        int nthFibonacciNumber =-10;
+        fibonacci.calculateFibonacciNumber(nthFibonacciNumber);
+
+    }
 }
