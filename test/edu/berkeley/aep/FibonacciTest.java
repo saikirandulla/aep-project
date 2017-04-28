@@ -69,5 +69,10 @@ public class FibonacciTest {
         assertEquals(55, fibonacci.calculateFibonacciNumberWoRecursion(nthFibonacciNumber));
 
     }
-   
+    @Test (expected = IllegalArgumentException.class)
+    public void negativeNthFibonacciNumberShouldThrowExceptionWoRecursion() throws Exception{
+        int nthFibonacciNumber =-10;
+        fibonacci.calculateFibonacciNumberWoRecursion(nthFibonacciNumber);
+
+    }
 }
