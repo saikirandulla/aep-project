@@ -63,4 +63,11 @@ public class FibonacciTest {
         fibonacci.calculateFibonacciNumber(nthFibonacciNumber);
 
     }
+    @Test
+    public void tenthTermOfFibonacciSeriesWoRecursionShouldBe55() throws Exception{
+        int nthFibonacciNumber =10;
+        assertEquals(55, fibonacci.calculateFibonacciNumberWoRecursion(nthFibonacciNumber));
+
+    }
+   
 }
