@@ -22,7 +22,7 @@ public class BetweenNumbers {
                 String b = String.valueOf(inputNumbers.get(i+1) -1);
                 String c = "-";
 
-                outputNumbers.add(a+b+c);
+                outputNumbers.add(a+c+b);
 
             }
         }
