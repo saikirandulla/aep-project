@@ -7,6 +7,7 @@ import java.util.List;
 
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.core.IsNull.nullValue;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 
@@ -21,6 +22,16 @@ public class BetweenNumbersTest {
         List<Integer> inputNumbers = new ArrayList<>();
         inputNumbers.add(3);
         assertThat(betweenNumbers.calculateBetweenNumbers(inputNumbers), not(nullValue()));
+
+    }
+    @Test
+    public void shouldReturnListOf1GivenInputList02() throws Exception{
+        List<Integer> inputNumbers = new ArrayList<>();
+        inputNumbers.add(0);
+        inputNumbers.add(2);
+        List<String> outputNumbers = new ArrayList<>();
+        outputNumbers.add("1");
+        assertEquals(betweenNumbers.calculateBetweenNumbers(inputNumbers), outputNumbers);
 
     }
 
